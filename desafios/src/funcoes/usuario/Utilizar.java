@@ -7,11 +7,11 @@ import funcoes.telefone.AparelhoTelefonico;
 public class Utilizar {
     public static void main(String[] args) throws Exception {
         Iphone aparelho = new Iphone();
-        AparelhoTelefonico funcaoLigar = aparelho;
+        AparelhoTelefonico funcaoTelefone = aparelho;
         ReprodutorMusical funcaoMusica = aparelho;
         NavegadorInternet fucaoInternet = aparelho;
 
-        funcaoLigar.iniciarCorreioVoz();
+        funcaoTelefone.ligar("619999999");;
         funcaoMusica.selecionarMusica("Linkin Park feat Jay-z - in the end");
         fucaoInternet.exibirPagina("www.dio.com");
     }
